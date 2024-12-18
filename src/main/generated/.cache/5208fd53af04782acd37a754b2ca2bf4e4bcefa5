@@ -1,0 +1,7 @@
+// 1.21.1	2024-12-18T01:39:17.716995	RiddenWorld/Tags for minecraft:block
+667b68c982e3f0e4302ccd94bc74d0fc703c63d2 data\minecraft\tags\block\mineable\hoe.json
+019db932b9b756095a667f4e470789c11fb30da4 data\minecraft\tags\block\fall_damage_resetting.json
+a7a3a6c483ba49f87a7d4d4e797b61f17625c19f data\minecraft\tags\block\wither_immune.json
+4267770eea1de5911ad90ffcf17e6dcff4fd123c data\minecraft\tags\block\dampens_vibrations.json
+a7a3a6c483ba49f87a7d4d4e797b61f17625c19f data\minecraft\tags\block\needs_diamond_tool.json
+29a23c9a2be5f5e4c18700aa83a736128126be68 data\minecraft\tags\block\needs_iron_tool.json

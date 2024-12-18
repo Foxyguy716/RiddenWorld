@@ -1,0 +1,28 @@
+{
+  "itemgroup.riddenworld.ridden_world_items": "Ridden World",
+
+  "item.riddenworld.oak_bark": "Oak Bark",
+  "item.riddenworld.spruce_bark": "Spruce Bark",
+  "item.riddenworld.birch_bark": "Birch Bark",
+  "item.riddenworld.jungle_bark": "Jungle Bark",
+  "item.riddenworld.acacia_bark": "Acacia Bark",
+  "item.riddenworld.dark_oak_bark": "Dark Oak Bark",
+  "item.riddenworld.mangrove_bark": "Mangrove Bark",
+  "item.riddenworld.cherry_bark": "Cherry Bark",
+  "item.riddenworld.crimson_bark": "Crimson Bark",
+  "item.riddenworld.warped_bark": "Warped Bark",
+
+  "item.riddenworld.cool_amber": "Cool Amber",
+  "item.riddenworld.warm_amber": "Warm Amber",
+  "item.riddenworld.hot_amber": "Hot Amber",
+  "item.riddenworld.chaotic_amber": "Chaotic Amber",
+  "item.riddenworld.harmonic_amber": "Harmonic Amber",
+
+  "block.riddenworld.cool_amber_block": "Cool Amber Block",
+  "block.riddenworld.warm_amber_block": "Warm Amber Block",
+  "block.riddenworld.hot_amber_block": "Hot Amber Block",
+  "block.riddenworld.chaotic_amber_block": "Chaotic Amber Block",
+  "block.riddenworld.harmonic_amber_block": "Harmonic Amber Block",
+
+  "trim_material.riddenworld.chaotic_amber": "Chaotic Amber"
+}

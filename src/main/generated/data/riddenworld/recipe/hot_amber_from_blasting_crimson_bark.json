@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 0.3,
+  "group": "Bark_Hot",
+  "ingredient": {
+    "item": "riddenworld:crimson_bark"
+  },
+  "result": {
+    "id": "riddenworld:hot_amber"
+  }
+}

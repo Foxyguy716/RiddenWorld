@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "riddenworld",
+	"version": "${version}",
+	"name": "RiddenWorld",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Foxyguy716"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/riddenworld/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"riddenworld.foxyguy.RiddenWorld"
+		],
+		"fabric-datagen": [
+			"riddenworld.foxyguy.RiddenWorldDataGenerator"
+		],
+		"client": [
+			"riddenworld.foxyguy.RiddenWorldClient"
+		]
+	},
+	"mixins": [
+		"riddenworld.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

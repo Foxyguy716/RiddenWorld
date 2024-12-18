@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_hot_amber": {
+      "conditions": {
+        "items": [
+          {
+            "items": "riddenworld:hot_amber"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:hot_amber_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_hot_amber"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:hot_amber_block"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "riddenworld:chaotic_amber_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "riddenworld:chaotic_amber"
+  }
+}

@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "riddenworld.foxyguy.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"RiddenWorldMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
