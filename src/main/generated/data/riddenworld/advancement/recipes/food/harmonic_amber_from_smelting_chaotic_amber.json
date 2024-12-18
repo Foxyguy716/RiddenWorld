@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_chaotic_amber": {
+      "conditions": {
+        "items": [
+          {
+            "items": "riddenworld:chaotic_amber"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:harmonic_amber_from_smelting_chaotic_amber"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_chaotic_amber"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:harmonic_amber_from_smelting_chaotic_amber"
+    ]
+  }
+}

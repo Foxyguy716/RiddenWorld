@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 600,
+  "experience": 0.6,
+  "group": "Bark_Warm",
+  "ingredient": {
+    "item": "riddenworld:oak_bark"
+  },
+  "result": {
+    "id": "riddenworld:warm_amber"
+  }
+}

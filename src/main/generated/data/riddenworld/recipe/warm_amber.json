@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "riddenworld:warm_amber_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "riddenworld:warm_amber"
+  }
+}
