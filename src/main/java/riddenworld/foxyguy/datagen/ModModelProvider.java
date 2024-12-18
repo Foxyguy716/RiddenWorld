@@ -39,5 +39,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SPRUCE_BARK, Models.GENERATED);
         itemModelGenerator.register(ModItems.WARM_AMBER, Models.GENERATED);
         itemModelGenerator.register(ModItems.WARPED_BARK, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HARMONIC_SMITHING_TEMPLATE, Models.GENERATED);
     }
 }

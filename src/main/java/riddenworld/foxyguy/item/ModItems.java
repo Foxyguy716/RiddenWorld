@@ -3,8 +3,10 @@ package riddenworld.foxyguy.item;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
+import net.minecraft.item.SmithingTemplateItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.resource.featuretoggle.FeatureFlags;
 import net.minecraft.util.Identifier;
 import riddenworld.foxyguy.RiddenWorld;
 
@@ -26,6 +28,9 @@ public class ModItems {
     public static final Item HOT_AMBER = registerItem("hot_amber", new Item(new Item.Settings().food(ModFoodComponents.BLAND_AMBER)));
     public static final Item CHAOTIC_AMBER = registerItem("chaotic_amber", new Item(new Item.Settings().food(ModFoodComponents.CHAOTIC_AMBER)));
     public static final Item HARMONIC_AMBER = registerItem("harmonic_amber", new Item(new Item.Settings().food(ModFoodComponents.HARMONIC_AMBER)));
+
+    public static final Item HARMONIC_SMITHING_TEMPLATE = registerItem("harmonic_smithing_template",
+            SmithingTemplateItem.of(Identifier.of(RiddenWorld.MOD_ID, "harmony"), FeatureFlags.VANILLA));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(RiddenWorld.MOD_ID, name), item);

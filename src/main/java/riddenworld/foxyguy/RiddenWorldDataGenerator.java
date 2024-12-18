@@ -6,6 +6,7 @@ import net.minecraft.registry.RegistryBuilder;
 import net.minecraft.registry.RegistryKeys;
 import riddenworld.foxyguy.datagen.*;
 import riddenworld.foxyguy.trim.ModTrimMaterials;
+import riddenworld.foxyguy.trim.ModTrimPatterns;
 
 public class RiddenWorldDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -23,5 +24,6 @@ public class RiddenWorldDataGenerator implements DataGeneratorEntrypoint {
 	@Override
 	public void buildRegistry(RegistryBuilder registryBuilder) {
 		registryBuilder.addRegistry(RegistryKeys.TRIM_MATERIAL, ModTrimMaterials::bootstrap);
+		registryBuilder.addRegistry(RegistryKeys.TRIM_PATTERN, ModTrimPatterns::bootstrap);
 	}
 }

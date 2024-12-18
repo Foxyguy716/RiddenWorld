@@ -38,7 +38,10 @@
                 "trims/models/armor/flow",
                 "trims/models/armor/flow_leggings",
                 "trims/models/armor/bolt",
-                "trims/models/armor/bolt_leggings"
+                "trims/models/armor/bolt_leggings",
+                "riddenworld:trim/models/armor/harmony",
+                "riddenworld:trim/models/armor/harmony"
+
             ],
             "palette_key": "trims/color_palettes/trim_palette",
             "permutations": {

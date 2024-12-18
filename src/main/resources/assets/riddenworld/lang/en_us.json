@@ -12,6 +12,8 @@
   "item.riddenworld.crimson_bark": "Crimson Bark",
   "item.riddenworld.warped_bark": "Warped Bark",
 
+  "item.riddenworld.harmonic_smithing_template": "Harmonic Smithing Template",
+
   "item.riddenworld.cool_amber": "Cool Amber",
   "item.riddenworld.warm_amber": "Warm Amber",
   "item.riddenworld.hot_amber": "Hot Amber",
@@ -24,5 +26,6 @@
   "block.riddenworld.chaotic_amber_block": "Chaotic Amber Block",
   "block.riddenworld.harmonic_amber_block": "Harmonic Amber Block",
 
-  "trim_material.riddenworld.chaotic_amber": "Chaotic Amber"
+  "trim_material.riddenworld.chaotic_amber": "Chaotic Amber",
+  "trim_pattern.riddenworld.harmony": "Harmony Armor Pattern"
 }

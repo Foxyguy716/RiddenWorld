@@ -52,5 +52,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, ModItems.HARMONIC_AMBER, 2)
                 .input(ModItems.CHAOTIC_AMBER) .input(Items.ECHO_SHARD)
                 .offerTo(exporter, Identifier.of(RiddenWorld.MOD_ID, "harmonic_amber_combine_craft"));
+
+        offerSmithingTrimRecipe(exporter, ModItems.HARMONIC_SMITHING_TEMPLATE, Identifier.of(RiddenWorld.MOD_ID, "harmony"));
     }
 }

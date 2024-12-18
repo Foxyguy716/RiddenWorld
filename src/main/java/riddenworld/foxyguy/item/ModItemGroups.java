@@ -39,6 +39,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.HOT_AMBER_BLOCK);
                         entries.add(ModBlocks.CHAOTIC_AMBER_BLOCK);
                         entries.add(ModBlocks.HARMONIC_AMBER_BLOCK);
+
+                        entries.add(ModItems.HARMONIC_SMITHING_TEMPLATE);
                     }).build());
 
     public static void registerItemGroups() {

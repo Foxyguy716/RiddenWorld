@@ -17,5 +17,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(ItemTags.TRIM_MATERIALS)
                 .add(ModItems.CHAOTIC_AMBER);
+
+        getOrCreateTagBuilder(ItemTags.TRIM_TEMPLATES)
+                .add(ModItems.HARMONIC_SMITHING_TEMPLATE);
     }
 }
